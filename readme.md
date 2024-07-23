@@ -5,20 +5,20 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/Gileno29/agenda">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/guedes-jr/django_next_auth">
+  <a href="https://github.com/Gileno29/book-api">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Gileno29/book-api">
   </a>
-  <a href="https://github.com/Gileno29/agenda/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/guedes-jr/django_next_auth">
+  <a href="https://github.com/Gileno29/book-api/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/Gileno29/book-api">
   </a>
-  <a href="https://github.com/Gileno29/agenda/network">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/guedes-jr/django_next_auth">
+  <a href="https://github.com/Gileno29/book-api/network">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Gileno29/book-api">
   </a>
-  <a href="https://github.com/Gileno29/agenda/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/guedes-jr/django_next_auth">
+  <a href="https://github.com/Gileno29/book-api/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/Gileno29/book-api">
   </a>
-  <a href="https://github.com/Gileno29/agenda/blob/main/LICENSE">
-    <img alt="GitHub license" src="https://img.shields.io/github/license/guedes-jr/django_next_auth">
+  <a href="https://github.com/Gileno29/book-api/blob/main/LICENSE">
+    <img alt="GitHub license" src="https://img.shields.io/github/license/Gileno29/book-api">
   </a>
 </p>
 
@@ -42,10 +42,9 @@ Este é um projeto full-stack que combina Django para o back-end e Next.js para 
 
 ## 🧰 Tecnologias Utilizadas
 
-- [Django](https://www.djangoproject.com/) - Back-end framework
+- [GO](https://go.dev/) - Linguagem
 - [Docker](https://www.docker.com/) - Deploy
-- [SQLitle](https://www.sqlite.org/) - Banco de dados
-- [Nginx](https://nginx.org/en/) - Servidor Web
+- [GinFlamework](https://gin-gonic.com/) - Back-end framework
 
 ## ✨ Funcionalidades
 
