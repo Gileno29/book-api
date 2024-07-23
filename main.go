@@ -123,6 +123,6 @@ func main() {
 	router.GET("/books/:id", bookById)
 	router.PATCH("/checkout", chockoutBook)
 	router.PATCH("/return", returnBook)
-	router.Run("localhost:8080")
+	router.Run("0.0.0.0:8080")
 
 }
