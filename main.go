@@ -1,8 +1,8 @@
 package main
 
 import (
-	"database/sql"
 	"errors"
+	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -14,9 +14,6 @@ var books = []book{
 	{ID: "2", Title: "The Great Gatsby", Author: "F. Scott", Quatity: 2},
 	{ID: "3", Title: "War and Peace", Author: "Leo Tolstoy", Quatity: 3},
 }
-
-var db *sql.DB
-var err error
 
 // Funcao para retornar uma lista de books
 func getBooks(c *gin.Context) {
@@ -113,6 +110,17 @@ func returnBook(c *gin.Context) {
 }
 
 func main() {
+	var sql = postgres
+	db, err := sql.Open(dbConfig.PostgresDriver, dbConfig.DataSourceName)
+
+	if err != nil {
+		panic(err.Error())
+	} else {
+		fmt.Println("Connected!")
+	}
+
+	defer db.Close()
+
 	//pega uma instlncia do GIN para manipular as rotas
 	router := gin.Default()
 
