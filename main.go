@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	_ "github.com/Gileno29/book-api/db"
+	_ "github.com/Gileno29/book-api/db/dbconfig"
 	"github.com/gin-gonic/gin"
 	_ "github.com/lib/pq"
 )
@@ -111,7 +111,7 @@ func returnBook(c *gin.Context) {
 }
 
 func main() {
-	var sql = dbConfig.postgres
+	var sql = ""
 	db, err := sql.Open(dbConfig.PostgresDriver, dbConfig.DataSourceName)
 
 	if err != nil {
