@@ -1,11 +1,12 @@
 package main
 
 import (
+	"database/sql"
 	"errors"
 	"fmt"
 	"net/http"
 
-	_ "github.com/Gileno29/book-api/db/dbconfig"
+	dbconfig "github.com/Gileno29/book-api/db/dbconfig"
 	"github.com/gin-gonic/gin"
 	_ "github.com/lib/pq"
 )
@@ -111,8 +112,7 @@ func returnBook(c *gin.Context) {
 }
 
 func main() {
-	var sql = ""
-	db, err := sql.Open(dbConfig.PostgresDriver, dbConfig.DataSourceName)
+	db, err := sql.Open(dbconfig.PostgresDriver, dbconfig.DataSourceName)
 
 	if err != nil {
 		panic(err.Error())
