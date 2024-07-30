@@ -12,7 +12,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
-var books = []book{
+var books = []bookstore.book{
 	{ID: "1", Title: "In Search of Lost Time", Author: "Marcel Proust", Quatity: 2},
 	{ID: "2", Title: "The Great Gatsby", Author: "F. Scott", Quatity: 2},
 	{ID: "3", Title: "War and Peace", Author: "Leo Tolstoy", Quatity: 3},
