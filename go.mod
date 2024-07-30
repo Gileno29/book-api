@@ -3,6 +3,7 @@ module github.com/Gileno29/book-api
 go 1.22.5
 
 require (
+	github.com/Gileno29/book-api/bookstore v0.0.0-20240730113940-7c253b060773
 	github.com/Gileno29/book-api/db v0.0.0-20240724160357-0d69fd7a7a0b
 	github.com/gin-gonic/gin v1.10.0
 	github.com/lib/pq v1.10.9
