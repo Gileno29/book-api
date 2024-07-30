@@ -31,11 +31,11 @@ type loan struct {
 	Client   client `json:"client"`
 }
 
-var books = []book{
+/*var books = []book{
 	{ID: "1", Title: "In Search of Lost Time", Author: "Marcel Proust", Quatity: 2},
 	{ID: "2", Title: "The Great Gatsby", Author: "F. Scott", Quatity: 2},
 	{ID: "3", Title: "War and Peace", Author: "Leo Tolstoy", Quatity: 3},
-}
+}*/
 
 // Funcao para retornar uma lista de books
 func getBooks(c *gin.Context) {
