@@ -13,29 +13,17 @@ import (
 )
 
 type book struct {
-	ID      string `json:"id"`
-	Title   string `json:"title"`
-	Author  string `json:"author"`
-	Quatity int    `json:"quality"`
+	ID      string
+	Title   string
+	Author  string
+	Quatity int
 }
 
-type client struct {
-	ID   int
-	name string
-	cpf  string
-}
-
-type loan struct {
-	Books    []book `json:"books"`
-	LoanDate string `json:"loandate"`
-	Client   client `json:"client"`
-}
-
-/*var books = []book{
+var books = []book{
 	{ID: "1", Title: "In Search of Lost Time", Author: "Marcel Proust", Quatity: 2},
 	{ID: "2", Title: "The Great Gatsby", Author: "F. Scott", Quatity: 2},
 	{ID: "3", Title: "War and Peace", Author: "Leo Tolstoy", Quatity: 3},
-}*/
+}
 
 // Funcao para retornar uma lista de books
 func getBooks(c *gin.Context) {
