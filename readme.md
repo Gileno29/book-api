@@ -30,15 +30,12 @@
 - [Requisitos](#requisitos)
 - [Instalação](#instalação)
 - [Uso](#uso)
-- [Scripts Disponíveis](#scripts-disponíveis)
-- [Estrutura de Pastas](#estrutura-de-pastas)
-- [Contribuindo](#contribuindo)
 - [Licença](#licença)
 - [Contato](#contato)
 
 ## 🛠️ Sobre o Projeto
 
-Este é um projeto full-stack que combina Django para o back-end e Next.js para o front-end. A aplicação visa fornecer uma plataforma robusta para novos projetos.
+Este é um projeto para aprendizado a respeito de APIs utilizando o gin frmework com golang.
 
 ## 🧰 Tecnologias Utilizadas
 
