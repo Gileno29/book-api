@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"net/http"
 
-	dbconfig "github.com/Gileno29/book-api/db/dbconfig"
 	"github.com/gin-gonic/gin"
 
 	_ "github.com/lib/pq"
