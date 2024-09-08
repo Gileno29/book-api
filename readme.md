@@ -28,7 +28,6 @@
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Funcionalidades](#funcionalidades)
 - [Requisitos](#requisitos)
-- [Instalação](#instalação)
 - [Uso](#uso)
 - [Licença](#licença)
 - [Contato](#contato)
