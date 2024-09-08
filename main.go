@@ -1,9 +1,7 @@
 package main
 
 import (
-	"database/sql"
 	"errors"
-	"fmt"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -119,15 +117,6 @@ func returnBook(c *gin.Context) {
 }
 
 func main() {
-	db, err := sql.Open(dbconfig.PostgresDriver, dbconfig.DataSourceName)
-
-	if err != nil {
-		panic(err.Error())
-	} else {
-		fmt.Println("Connected!")
-	}
-
-	defer db.Close()
 
 	//pega uma instlncia do GIN para manipular as rotas
 	router := gin.Default()
